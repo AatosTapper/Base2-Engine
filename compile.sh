@@ -1,0 +1,2 @@
+/Users/aatostapper/VulkanSDK/1.3.275.0/macOS/bin/glslc shaders/GLSL/default.vert -o shaders/SPIRV/default.vert.spv
+/Users/aatostapper/VulkanSDK/1.3.275.0/macOS/bin/glslc shaders/GLSL/default.frag -o shaders/SPIRV/default.frag.spv

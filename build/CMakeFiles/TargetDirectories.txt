@@ -1,0 +1,3 @@
+/Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/build/CMakeFiles/main.dir
+/Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/build/CMakeFiles/edit_cache.dir
+/Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/build/CMakeFiles/rebuild_cache.dir
