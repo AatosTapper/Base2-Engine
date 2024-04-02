@@ -111,10 +111,24 @@ CMakeFiles/main.dir/src/b2e_pipeline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/b2e_pipeline.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_pipeline.cpp -o CMakeFiles/main.dir/src/b2e_pipeline.cpp.s
 
+CMakeFiles/main.dir/src/b2e_swap_chain.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/b2e_swap_chain.cpp.o: /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_swap_chain.cpp
+CMakeFiles/main.dir/src/b2e_swap_chain.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/b2e_swap_chain.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/b2e_swap_chain.cpp.o -MF CMakeFiles/main.dir/src/b2e_swap_chain.cpp.o.d -o CMakeFiles/main.dir/src/b2e_swap_chain.cpp.o -c /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_swap_chain.cpp
+
+CMakeFiles/main.dir/src/b2e_swap_chain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/b2e_swap_chain.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_swap_chain.cpp > CMakeFiles/main.dir/src/b2e_swap_chain.cpp.i
+
+CMakeFiles/main.dir/src/b2e_swap_chain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/b2e_swap_chain.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_swap_chain.cpp -o CMakeFiles/main.dir/src/b2e_swap_chain.cpp.s
+
 CMakeFiles/main.dir/src/b2e_window.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/b2e_window.cpp.o: /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_window.cpp
 CMakeFiles/main.dir/src/b2e_window.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/b2e_window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/b2e_window.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/b2e_window.cpp.o -MF CMakeFiles/main.dir/src/b2e_window.cpp.o.d -o CMakeFiles/main.dir/src/b2e_window.cpp.o -c /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_window.cpp
 
 CMakeFiles/main.dir/src/b2e_window.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/main.dir/src/b2e_window.cpp.s: cmake_force
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cpp.o: /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/main.cpp
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
@@ -144,6 +158,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/app.cpp.o" \
 "CMakeFiles/main.dir/src/b2e_device.cpp.o" \
 "CMakeFiles/main.dir/src/b2e_pipeline.cpp.o" \
+"CMakeFiles/main.dir/src/b2e_swap_chain.cpp.o" \
 "CMakeFiles/main.dir/src/b2e_window.cpp.o" \
 "CMakeFiles/main.dir/src/main.cpp.o"
 
@@ -153,12 +168,13 @@ main_EXTERNAL_OBJECTS =
 main: CMakeFiles/main.dir/src/app.cpp.o
 main: CMakeFiles/main.dir/src/b2e_device.cpp.o
 main: CMakeFiles/main.dir/src/b2e_pipeline.cpp.o
+main: CMakeFiles/main.dir/src/b2e_swap_chain.cpp.o
 main: CMakeFiles/main.dir/src/b2e_window.cpp.o
 main: CMakeFiles/main.dir/src/main.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: /opt/homebrew/lib/libglfw.3.4.dylib
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

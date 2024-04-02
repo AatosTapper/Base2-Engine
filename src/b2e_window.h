@@ -17,6 +17,7 @@ namespace b2e
         B2eWindow &operator=(const B2eWindow&) = delete;
 
         inline bool should_close() { return glfwWindowShouldClose(m_window); }
+        inline VkExtent2D get_extent() { return { static_cast<uint32_t>(m_width), static_cast<uint32_t>(m_height) }; }
         void create_window_surface(VkInstance instance, VkSurfaceKHR *surface);
         
     private:

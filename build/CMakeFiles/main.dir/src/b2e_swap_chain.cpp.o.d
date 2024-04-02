@@ -1,6 +1,7 @@
-CMakeFiles/main.dir/src/main.cpp.o: \
-  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/main.cpp \
-  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/app.h \
+CMakeFiles/main.dir/src/b2e_swap_chain.cpp.o: \
+  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_swap_chain.cpp \
+  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_swap_chain.h \
+  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_device.h \
   /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_window.h \
   /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/dep/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stddef.h \
@@ -732,9 +733,6 @@ CMakeFiles/main.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_pipeline.h \
-  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_device.h \
-  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_swap_chain.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__locale \
@@ -791,4 +789,6 @@ CMakeFiles/main.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdarg
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdarg \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tree

@@ -1,6 +1,6 @@
 #pragma once
 
-// FILE COPIED FROM Brendan Galea and edited by me
+// FILE COPIED FROM Brendan Galea and edited by Aatos Tapper
 
 #include "b2e_window.h"
 

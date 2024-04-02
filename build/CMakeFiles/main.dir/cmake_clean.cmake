@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/b2e_device.cpp.o.d"
   "CMakeFiles/main.dir/src/b2e_pipeline.cpp.o"
   "CMakeFiles/main.dir/src/b2e_pipeline.cpp.o.d"
+  "CMakeFiles/main.dir/src/b2e_swap_chain.cpp.o"
+  "CMakeFiles/main.dir/src/b2e_swap_chain.cpp.o.d"
   "CMakeFiles/main.dir/src/b2e_window.cpp.o"
   "CMakeFiles/main.dir/src/b2e_window.cpp.o.d"
   "CMakeFiles/main.dir/src/main.cpp.o"

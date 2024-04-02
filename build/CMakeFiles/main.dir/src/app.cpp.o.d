@@ -733,4 +733,6 @@ CMakeFiles/main.dir/src/app.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/unary_negate.h \
   /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_pipeline.h \
-  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_device.h
+  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_device.h \
+  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_swap_chain.h \
+  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/VK_CHECK.h

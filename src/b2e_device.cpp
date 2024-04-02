@@ -1,6 +1,6 @@
 #include "b2e_device.h"
 
-// FILE COPIED FROM Brendan Galea and edited by me
+// FILE COPIED FROM Brendan Galea and edited by Aatos Tapper
 
 // std headers
 #include <cstring>
