@@ -10,6 +10,7 @@
 // std lib headers
 #include <string>
 #include <vector>
+#include <memory>
 
 namespace b2e 
 {
@@ -19,21 +20,22 @@ namespace b2e
         static constexpr int MAX_FRAMES_IN_FLIGHT = 2;
 
         B2eSwapChain(B2eDevice &deviceRef, VkExtent2D windowExtent);
+        B2eSwapChain(B2eDevice &deviceRef, VkExtent2D windowExtent, std::shared_ptr<B2eSwapChain> previous);
         ~B2eSwapChain();
 
         B2eSwapChain(const B2eSwapChain &) = delete;
-        void operator=(const B2eSwapChain &) = delete;
+        B2eSwapChain &operator=(const B2eSwapChain &) = delete;
 
-        VkFramebuffer get_frame_Buffer(int index) { return swapChainFramebuffers[index]; }
-        VkRenderPass get_render_pass() { return renderPass; }
-        VkImageView get_image_view(int index) { return swapChainImageViews[index]; }
-        size_t image_count() { return swapChainImages.size(); }
-        VkFormat get_swap_chain_image_format() { return swapChainImageFormat; }
-        VkExtent2D get_swap_chain_extent() { return swapChainExtent; }
-        uint32_t width() { return swapChainExtent.width; }
-        uint32_t height() { return swapChainExtent.height; }
+        inline VkFramebuffer get_frame_Buffer(int index) { return swapChainFramebuffers[index]; }
+        inline VkRenderPass get_render_pass() { return renderPass; }
+        inline VkImageView get_image_view(int index) { return swapChainImageViews[index]; }
+        inline size_t image_count() { return swapChainImages.size(); }
+        inline VkFormat get_swap_chain_image_format() { return swapChainImageFormat; }
+        inline VkExtent2D get_swap_chain_extent() { return swapChainExtent; }
+        inline uint32_t width() { return swapChainExtent.width; }
+        inline uint32_t height() { return swapChainExtent.height; }
 
-        float extent_aspect_ratio() 
+        inline float extent_aspect_ratio() 
         {
             return static_cast<float>(swapChainExtent.width) / static_cast<float>(swapChainExtent.height);
         }
@@ -43,6 +45,7 @@ namespace b2e
         VkResult submit_command_buffers(const VkCommandBuffer *buffers, uint32_t *imageIndex);
 
     private:
+        void init();
         void createSwapChain();
         void createImageViews();
         void createDepthResources();
@@ -73,6 +76,7 @@ namespace b2e
         VkExtent2D windowExtent;
 
         VkSwapchainKHR swapChain;
+        std::shared_ptr<B2eSwapChain> oldSwapChain;
 
         std::vector<VkSemaphore> imageAvailableSemaphores;
         std::vector<VkSemaphore> renderFinishedSemaphores;

@@ -40,7 +40,7 @@ namespace b2e
 
         // Not copyable or movable
         B2eDevice(const B2eDevice &) = delete;
-        void operator=(const B2eDevice &) = delete;
+        B2eDevice &operator=(const B2eDevice &) = delete;
         B2eDevice(B2eDevice &&) = delete;
         B2eDevice &operator=(B2eDevice &&) = delete;
 

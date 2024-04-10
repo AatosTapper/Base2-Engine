@@ -153,6 +153,54 @@ src/app.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/app.cpp.s
 .PHONY : src/app.cpp.s
 
+src/b2e_camera.o: src/b2e_camera.cpp.o
+.PHONY : src/b2e_camera.o
+
+# target to build an object file
+src/b2e_camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_camera.cpp.o
+.PHONY : src/b2e_camera.cpp.o
+
+src/b2e_camera.i: src/b2e_camera.cpp.i
+.PHONY : src/b2e_camera.i
+
+# target to preprocess a source file
+src/b2e_camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_camera.cpp.i
+.PHONY : src/b2e_camera.cpp.i
+
+src/b2e_camera.s: src/b2e_camera.cpp.s
+.PHONY : src/b2e_camera.s
+
+# target to generate assembly for a file
+src/b2e_camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_camera.cpp.s
+.PHONY : src/b2e_camera.cpp.s
+
+src/b2e_camera_controller.o: src/b2e_camera_controller.cpp.o
+.PHONY : src/b2e_camera_controller.o
+
+# target to build an object file
+src/b2e_camera_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_camera_controller.cpp.o
+.PHONY : src/b2e_camera_controller.cpp.o
+
+src/b2e_camera_controller.i: src/b2e_camera_controller.cpp.i
+.PHONY : src/b2e_camera_controller.i
+
+# target to preprocess a source file
+src/b2e_camera_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_camera_controller.cpp.i
+.PHONY : src/b2e_camera_controller.cpp.i
+
+src/b2e_camera_controller.s: src/b2e_camera_controller.cpp.s
+.PHONY : src/b2e_camera_controller.s
+
+# target to generate assembly for a file
+src/b2e_camera_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_camera_controller.cpp.s
+.PHONY : src/b2e_camera_controller.cpp.s
+
 src/b2e_device.o: src/b2e_device.cpp.o
 .PHONY : src/b2e_device.o
 
@@ -177,6 +225,54 @@ src/b2e_device.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_device.cpp.s
 .PHONY : src/b2e_device.cpp.s
 
+src/b2e_game_object.o: src/b2e_game_object.cpp.o
+.PHONY : src/b2e_game_object.o
+
+# target to build an object file
+src/b2e_game_object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_game_object.cpp.o
+.PHONY : src/b2e_game_object.cpp.o
+
+src/b2e_game_object.i: src/b2e_game_object.cpp.i
+.PHONY : src/b2e_game_object.i
+
+# target to preprocess a source file
+src/b2e_game_object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_game_object.cpp.i
+.PHONY : src/b2e_game_object.cpp.i
+
+src/b2e_game_object.s: src/b2e_game_object.cpp.s
+.PHONY : src/b2e_game_object.s
+
+# target to generate assembly for a file
+src/b2e_game_object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_game_object.cpp.s
+.PHONY : src/b2e_game_object.cpp.s
+
+src/b2e_model.o: src/b2e_model.cpp.o
+.PHONY : src/b2e_model.o
+
+# target to build an object file
+src/b2e_model.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_model.cpp.o
+.PHONY : src/b2e_model.cpp.o
+
+src/b2e_model.i: src/b2e_model.cpp.i
+.PHONY : src/b2e_model.i
+
+# target to preprocess a source file
+src/b2e_model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_model.cpp.i
+.PHONY : src/b2e_model.cpp.i
+
+src/b2e_model.s: src/b2e_model.cpp.s
+.PHONY : src/b2e_model.s
+
+# target to generate assembly for a file
+src/b2e_model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_model.cpp.s
+.PHONY : src/b2e_model.cpp.s
+
 src/b2e_pipeline.o: src/b2e_pipeline.cpp.o
 .PHONY : src/b2e_pipeline.o
 
@@ -200,6 +296,30 @@ src/b2e_pipeline.s: src/b2e_pipeline.cpp.s
 src/b2e_pipeline.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_pipeline.cpp.s
 .PHONY : src/b2e_pipeline.cpp.s
+
+src/b2e_renderer.o: src/b2e_renderer.cpp.o
+.PHONY : src/b2e_renderer.o
+
+# target to build an object file
+src/b2e_renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_renderer.cpp.o
+.PHONY : src/b2e_renderer.cpp.o
+
+src/b2e_renderer.i: src/b2e_renderer.cpp.i
+.PHONY : src/b2e_renderer.i
+
+# target to preprocess a source file
+src/b2e_renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_renderer.cpp.i
+.PHONY : src/b2e_renderer.cpp.i
+
+src/b2e_renderer.s: src/b2e_renderer.cpp.s
+.PHONY : src/b2e_renderer.s
+
+# target to generate assembly for a file
+src/b2e_renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/b2e_renderer.cpp.s
+.PHONY : src/b2e_renderer.cpp.s
 
 src/b2e_swap_chain.o: src/b2e_swap_chain.cpp.o
 .PHONY : src/b2e_swap_chain.o
@@ -285,12 +405,27 @@ help:
 	@echo "... src/app.o"
 	@echo "... src/app.i"
 	@echo "... src/app.s"
+	@echo "... src/b2e_camera.o"
+	@echo "... src/b2e_camera.i"
+	@echo "... src/b2e_camera.s"
+	@echo "... src/b2e_camera_controller.o"
+	@echo "... src/b2e_camera_controller.i"
+	@echo "... src/b2e_camera_controller.s"
 	@echo "... src/b2e_device.o"
 	@echo "... src/b2e_device.i"
 	@echo "... src/b2e_device.s"
+	@echo "... src/b2e_game_object.o"
+	@echo "... src/b2e_game_object.i"
+	@echo "... src/b2e_game_object.s"
+	@echo "... src/b2e_model.o"
+	@echo "... src/b2e_model.i"
+	@echo "... src/b2e_model.s"
 	@echo "... src/b2e_pipeline.o"
 	@echo "... src/b2e_pipeline.i"
 	@echo "... src/b2e_pipeline.s"
+	@echo "... src/b2e_renderer.o"
+	@echo "... src/b2e_renderer.i"
+	@echo "... src/b2e_renderer.s"
 	@echo "... src/b2e_swap_chain.o"
 	@echo "... src/b2e_swap_chain.i"
 	@echo "... src/b2e_swap_chain.s"

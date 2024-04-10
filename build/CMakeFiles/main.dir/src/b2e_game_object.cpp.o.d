@@ -1,11 +1,62 @@
-CMakeFiles/main.dir/src/b2e_pipeline.cpp.o: \
-  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_pipeline.cpp \
-  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_pipeline.h \
+CMakeFiles/main.dir/src/b2e_game_object.cpp.o: \
+  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_game_object.cpp \
+  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_game_object.h \
+  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_model.h \
+  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_device.h \
+  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_window.h \
+  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/dep/include/GLFW/glfw3.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config_site \
+  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/arm/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_intmax_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_uintmax_t.h \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vulkan/vulkan.h \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vulkan/vk_platform.h \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vulkan/vulkan_core.h \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vk_video/vulkan_video_codec_h264std.h \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vk_video/vulkan_video_codecs_common.h \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vk_video/vulkan_video_codec_h264std_encode.h \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vk_video/vulkan_video_codec_h265std.h \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vk_video/vulkan_video_codec_h265std_encode.h \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vk_video/vulkan_video_codec_h264std_decode.h \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vk_video/vulkan_video_codec_h265std_decode.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/os/availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/AvailabilityInternalLegacy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/comp.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config_site \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__debug \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert \
@@ -20,9 +71,6 @@ CMakeFiles/main.dir/src/b2e_pipeline.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_const.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/version \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/declval.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__algorithm/max_element.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/iterator_traits.h \
@@ -166,42 +214,12 @@ CMakeFiles/main.dir/src/b2e_pipeline.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_default_constructible.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__utility/piecewise_construct.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/stdint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_int64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/cdefs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_posix_availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/machine/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/arm/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/machine/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/arm/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_intmax_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_uintmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstring \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/AvailabilityVersions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/AvailabilityInternal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/AvailabilityInternalLegacy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_size_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_null.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ssize_t.h \
@@ -716,24 +734,6 @@ CMakeFiles/main.dir/src/b2e_pipeline.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_device.h \
-  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_window.h \
-  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/dep/include/GLFW/glfw3.h \
-  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vulkan/vulkan.h \
-  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vulkan/vk_platform.h \
-  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vulkan/vulkan_core.h \
-  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vk_video/vulkan_video_codec_h264std.h \
-  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vk_video/vulkan_video_codecs_common.h \
-  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vk_video/vulkan_video_codec_h264std_encode.h \
-  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vk_video/vulkan_video_codec_h265std.h \
-  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vk_video/vulkan_video_codec_h265std_encode.h \
-  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vk_video/vulkan_video_codec_h264std_decode.h \
-  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/vk_video/vulkan_video_codec_h265std_decode.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/os/availability.h \
-  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/b2e_model.h \
   /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/glm.hpp \
   /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/detail/_fixes.hpp \
   /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/detail/setup.hpp \
@@ -889,81 +889,101 @@ CMakeFiles/main.dir/src/b2e_pipeline.cpp.o: \
   /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/vector_relational.hpp \
   /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/integer.hpp \
   /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/detail/func_integer.inl \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/fstream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/mutex \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__mutex_base \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__errc \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/xlocale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_xlocale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/xlocale/__wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_time.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/istream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/locale \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/nl_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_char.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_short.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_caddr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_blkcnt_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_blksize_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_gid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_in_addr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_in_port_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ino_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ino64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_key_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_nlink_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_useconds_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_suseconds_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_errno_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fd_def.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fd_setsize.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fd_set.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fd_clr.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fd_zero.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fd_isset.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fd_copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdarg \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_status.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/perms.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__chrono/file_clock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/path.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/operations.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/space_info.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iostream \
-  /Users/aatostapper/Documents/Dev/Vulkan/Base2-Engine/src/VK_CHECK.h
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/type_ptr.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../gtc/quaternion.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../gtc/constants.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/scalar_constants.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/scalar_constants.inl \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/constants.inl \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../gtc/matrix_transform.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../mat4x4.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../vec2.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../vec3.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../vec4.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/matrix_projection.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../gtc/constants.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../geometric.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../trigonometric.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../matrix.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/matrix_projection.inl \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/matrix_clip_space.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../ext/scalar_constants.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/matrix_clip_space.inl \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/matrix_transform.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/matrix_transform.inl \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/matrix_transform.inl \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../geometric.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../trigonometric.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../matrix.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/vector_relational.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../detail/qualifier.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/vector_relational.inl \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../vector_relational.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../common.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../detail/type_float.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/quaternion_common.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../ext/quaternion_geometric.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../exponential.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../ext/vector_relational.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/quaternion_geometric.inl \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/quaternion_common.inl \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/quaternion_float.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../detail/type_quat.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/detail/../detail/type_mat3x3.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/detail/../detail/type_mat4x4.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/detail/../detail/type_vec3.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/detail/../detail/type_vec4.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/detail/../ext/vector_relational.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/detail/../ext/quaternion_relational.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/quaternion_relational.inl \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/detail/../gtc/constants.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/detail/../gtc/matrix_transform.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/detail/type_quat.inl \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/detail/../trigonometric.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/detail/../ext/quaternion_geometric.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/quaternion_float_precision.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/quaternion_double.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/quaternion_double_precision.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/quaternion_relational.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/quaternion_geometric.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/quaternion_trigonometric.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/scalar_constants.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/vector_relational.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/quaternion_trigonometric.inl \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/quaternion_transform.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/quaternion_transform.inl \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../detail/type_mat3x3.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../detail/type_mat4x4.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../detail/type_vec3.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../detail/type_vec4.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/quaternion.inl \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../exponential.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/epsilon.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../detail/setup.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../detail/qualifier.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/epsilon.inl \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../vector_relational.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../common.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../gtc/vec1.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/vector_bool1.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../detail/type_vec1.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/vector_bool1_precision.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/vector_float1.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/vector_float1_precision.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/vector_double1.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/vector_double1_precision.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/vector_int1.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/vector_int1_sized.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../ext/vector_int1.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/vector_uint1.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../ext/vector_uint1_sized.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/./ext/../ext/vector_uint1.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../mat2x2.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../mat2x3.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../mat2x4.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../mat3x2.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../mat3x3.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../mat3x4.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../mat4x2.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/../mat4x3.hpp \
+  /Users/aatostapper/VulkanSDK/1.3.275.0/macOS/include/glm/gtc/type_ptr.inl
